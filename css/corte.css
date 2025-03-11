@@ -1,0 +1,22 @@
+*{
+    background-color: rgb(250, 255, 190);
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto; 
+    justify-items: center; 
+    gap: 5px;
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.article1 {
+    grid-column: span 3; 
+    justify-self: center; 
+    width: 100%; 
+    max-width: 100%; 
+    height: auto; 
+}
